@@ -29,9 +29,17 @@ body{    background-color:rgba(110,60,32,1);
 
 .kk-section{
     margin-bottom: 60PX;
-}
-.kk-accsesslist{
+}/*アクセスページのmargin-bottom*/
 
+.kk-accsesslist{
+}/*アクセスの基本情報を入れるbox*/
+
+dl{
+    display:block;
+    -webkit-margin-before:1em;
+    -webkit-margin-after:1em;
+    -webkit-margin-start:0em;
+    -webkit-margin-end:0em;
 }
 
 .kk-accsesslist dt{
@@ -47,8 +55,6 @@ body{    background-color:rgba(110,60,32,1);
     line-height: 1.846em;
 }
 
-
-}
 
 
 
