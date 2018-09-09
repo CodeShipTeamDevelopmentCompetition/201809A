@@ -3,7 +3,7 @@
     font-family: 'Comic Sans MS',sans-serif;
 }
 
-.home-body{
+.home-back{
     background-color: rgb(255, 231, 181, 1);
 }
 /* homeスライドショー */
@@ -17,7 +17,7 @@
 }
 /* 季節のメニュー的な */
 .home-new-menu-box{
-    background-color: rgb(110, 60, 32, 1);
+    background-color: #FF5F17;
 }
 .home-new-menu{
     display: flex;
@@ -32,7 +32,7 @@
     margin: 50px;
 }
 
-body{    background-color:rgba(110,60,32,1);
+body{    background-color:rgba(110, 60, 32, 1);
 }/*背景カラー */
 
 .kk-contentsbox{
