@@ -21,6 +21,12 @@ h3{
     font-family: 'Comic Sans MS',sans-serif;
 }
 
+/* article */
+article {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .home-side-spac{
     background-color: rgb(255, 231, 181, 1);
 }
@@ -184,6 +190,7 @@ dl{
 
 .ny-title {
     color:rgba(255, 231, 181, 1);
+    font-weight: inherit;
 }
 
 .ny-drinkmenu {
@@ -195,6 +202,7 @@ dl{
     display: inline-block;
     position: absolute;
     top: 0;
+    font-weight: bold;
 }
 
 .mm-header-nav {
