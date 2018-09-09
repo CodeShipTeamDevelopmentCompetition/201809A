@@ -21,6 +21,12 @@ h3{
     font-family: 'Comic Sans MS',sans-serif;
 }
 
+/* article */
+article {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .home-side-spac{
     background-color: rgb(255, 231, 181, 1);
 }
