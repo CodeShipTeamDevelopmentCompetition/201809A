@@ -2,37 +2,57 @@
 * {
     font-family: 'Comic Sans MS',sans-serif;
 }
-<<<<<<< HEAD
 body{    background-color:rgba(110,60,32,1);
 }/*背景カラー */
 
 .kk-contentsbox{
-    position: relative;
     width:100%;
     min-height:100%;
-    text-align: left;
+    display:block;
+    margin:0 10px;
+    color: rgba(255,255,255,1);
 }/*サイトの大きさ、text-align*/
 
 
 .kk-contentsbox h1{
     color: rgba(255,255,255,1);
-    font-size:60px;
+    margin-bottom: 1em; 
+	font-size: 1.846em; 
+    line-height: 1em;
 }/*ACCESSフォントサイズ、カラー*/
 
+.kk-contentsbox h1 apan{
+    margin-top: 5px;
+    font-size: 0.5em;
+    display: block;
+}/*アクセスフォントサイズ*/
+
 .kk-section{
-    position: absolute;;
-    display:block;
-    height:60px;
-    color: 
+    margin-bottom: 60PX;
+}
+.kk-accsesslist{
+
+}
+
+.kk-accsesslist dt{
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.846em;
+}
+
+.kk-accsesslist dd{
+    font-size: 1em;
+    margin:1.846em;
+    line-height: 1.846em;
 }
 
 
+}
 
 
-=======
 
 /* ヘッダー */
 .mm-header {
     
 }
->>>>>>> 99189ee92f37af670c0e3131557f9abb3bb93787
