@@ -2,3 +2,16 @@
 * {
     font-family: 'Comic Sans MS',sans-serif;
 }
+
+.home-body{
+    background-color: rgb(255, 231, 181, 1);
+}
+/* homeスライドショー */
+.carousel{
+    justify-content: center;
+    height: 300px;
+    max-width: 900px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: grey;
+}
