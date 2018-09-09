@@ -47,7 +47,7 @@ h3{
 
 /* 季節のメニュー的な */
 .home-new-menu-box{
-    background-color: #FF5F17;
+    background-color: rgb(110, 60, 32, 1);
 }
 .home-new-menu{
     display: flex;
@@ -62,7 +62,7 @@ h3{
     margin: 50px;
 }
 
-body{    background-color:rgba(110, 60, 32, 1);
+body{    background-color:rgba(110,60,32,1);
 }/*背景カラー */
 
 .kk-contentsbox{
@@ -120,14 +120,14 @@ dl{
 .mm-header {
     height: 80px;
     width: 100;
-    background-color: rgb(110, 60, 32);
+    background-color:rgba(55,0,0,1);
 }
 
 .mm-header a {
     height: 80px;
     line-height: 80px;
     width: 100%;
-    color: black;
+    color: white;
     display: block;
     text-decoration: none;
 }
