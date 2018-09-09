@@ -136,6 +136,24 @@ dl{
     position: relative;
 }
 
+/* メニュー　*/
+.ny-menu ul{
+    list-style: none;
+}
+
+.ny-image {
+    background-color:black;
+    height: 80px;
+    width: 80px;
+}
+
+.ny-title {
+    color:rgba(255, 231, 181, 1);
+}
+
+.ny-drinkmenu {
+    border:double 7px rgba(255, 231, 181, 1);
+    width:60%;
 .mm-header-title {
     margin: 0;
     display: inline-block;
@@ -166,8 +184,17 @@ dl{
 
 /* フッター　*/
 .oy-footer {
-    background-color: rgb(110, 60, 32, 1);
-    color: rgb(255, 255, 255, 1);
+    height: 40px;
+    background-color:rgba(55,0,0,1);
     display: flex;
     justify-content: center;
+}
+.oy-footer-text{
+    margin-top: 10px;
+    height: 100%;
+    font-size: 17px;
+    width: 350px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-around;
 }
