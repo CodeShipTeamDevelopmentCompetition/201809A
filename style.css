@@ -130,6 +130,24 @@ dl{
     position: relative;
 }
 
+/* メニュー　*/
+.ny-menu ul{
+    list-style: none;
+}
+
+.ny-image {
+    background-color:black;
+    height: 80px;
+    width: 80px;
+}
+
+.ny-title {
+    color:rgba(255, 231, 181, 1);
+}
+
+.ny-drinkmenu {
+    border:double 7px rgba(255, 231, 181, 1);
+    width:60%;
 .mm-header-title {
     margin: 0;
     display: inline-block;
