@@ -2,3 +2,29 @@
 * {
     font-family: 'Comic Sans MS',sans-serif;
 }
+body{    background-color:rgba(110,60,32,1);
+}/*背景カラー */
+
+.kk-contentsbox{
+    position: relative;
+    width:100%;
+    min-height:100%;
+    text-align: left;
+}/*サイトの大きさ、text-align*/
+
+
+.kk-contentsbox h1{
+    color: rgba(255,255,255,1);
+    font-size:60px;
+}/*ACCESSフォントサイズ、カラー*/
+
+.kk-section{
+    position: absolute;;
+    display:block;
+    height:60px;
+    color: 
+}
+
+
+
+
