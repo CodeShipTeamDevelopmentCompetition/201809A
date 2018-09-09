@@ -21,18 +21,30 @@ h3{
     font-family: 'Comic Sans MS',sans-serif;
 }
 
-.home-back{
+.home-side-spac{
     background-color: rgb(255, 231, 181, 1);
 }
 /* homeスライドショー */
 .carousel{
     justify-content: center;
-    height: 300px;
+    height: 500px;
     max-width: 900px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: grey;
+    background-color:black;
+    color: white;
+    text-align: center;
 }
+.home-images-item{
+    justify-content: center;
+    height: 500px;
+    max-width: 900px;
+  
+}
+.home-images-text{
+    
+}
+
 /* 季節のメニュー的な */
 .home-new-menu-box{
     background-color: #FF5F17;
@@ -44,8 +56,8 @@ h3{
     margin-right: 10%;
 }
 .home-new-menu-img{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     background-color: gray;
     margin: 50px;
 }
