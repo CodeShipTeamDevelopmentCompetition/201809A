@@ -1,3 +1,21 @@
+/* フォントサイズ */
+html, body{
+    font-size: 14px;
+    line-height: 1.25em;
+}
+
+h1{
+    font-size: 4.2rem;
+}
+
+h2{
+    font-size: 2.618rem;
+}
+
+h3{
+    font-size: 1.618rem;
+}
+
 /* タイポグラフィ */
 * {
     font-family: 'Comic Sans MS',sans-serif;
@@ -5,5 +23,54 @@
 
 /* ヘッダー */
 .mm-header {
-    
+    height: 80px;
+    width: 100;
+    background-color: rgb(110, 60, 32);
+}
+
+.mm-header a {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.mm-header a:hover {
+    background-color: #6F553D;
+}
+
+.mm-header-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mm-header-title {
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.mm-header-nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.mm-header-nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mm-header-nav li {
+    width: 110px;
+    margin-left: 30px;
+    font-size: 1.618rem;
+    text-align: center;
 }
