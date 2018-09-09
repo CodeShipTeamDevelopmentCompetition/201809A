@@ -21,6 +21,12 @@ h3{
     font-family: 'Comic Sans MS',sans-serif;
 }
 
+/* article */
+article {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .home-side-spac{
     background-color: rgb(255, 231, 181, 1);
 }
@@ -221,18 +227,53 @@ dl{
 }
 
 /* フッター　*/
-.oy-footer {
+.TOP{
+    color: rgba(255,255,255,1);
+}
+.TOP a{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.oy-footer{
     height: 40px;
     background-color:rgba(55,0,0,1);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+
 .oy-footer-text{
-    margin-top: 10px;
-    height: 100%;
+    margin-top:10px;
     font-size: 17px;
     width: 350px;
+    margin-left: 480px;
     color: rgba(255,255,255,1);
     display: flex;
     justify-content: space-around;
+}
+
+.oy-footer-text a{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.oy-footer-access{
+    height: 40px;
+    background-color:rgba(55,0,0,1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.oy-access-footer-text{
+    font-size: 17px;
+    width: 350px;
+    margin-left: 480px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.oy-access-footer-text a{
+    color: rgba(255,255,255,1);
+    text-decoration: none;
 }
