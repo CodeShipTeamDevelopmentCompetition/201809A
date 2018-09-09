@@ -19,7 +19,7 @@
 sanitize.css
 
 ## Webサイトのラフスケッチ
-
+![](roughsketch.jpg)
 
 ## カラーパレット
 ベースカラー：(110, 60, 32, 1)<br>
@@ -33,11 +33,8 @@ font-family: 'Comic Sans MS',sans-serif;
 
 
 ## 担当
-HTML,CSS<br>
-- 片田恭平
-- 中野湧仁
-- 金子正樹
-
-JavaScript<br>
-- 森賢哉
-- 大久保優太
+ヘッダー：森賢哉<br>
+フッター：大久保優太<br>
+トップ：金子正樹<br>
+メニュー：中野湧仁<br>
+アクセス：片田恭平<br>
