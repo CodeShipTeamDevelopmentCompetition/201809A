@@ -64,22 +64,18 @@ body{    background-color:rgba(110,60,32,1);
 
 .kk-contentsbox h1{
     color: rgba(255,255,255,1);
-    margin-bottom: 1em; 
-	font-size: 4.2em; 
+    margin-bottom: 1em;
     line-height: 1em;
+
 }/*ACCESSフォントサイズ、カラー*/
 
-.kk-contentsbox h1 apan{
-    margin-top: 5px;
-    font-size: 2.1em;
-    display: block;
-}/*アクセスフォントサイズ*/
 
 .kk-section{
     margin-bottom: 60PX;
 }/*アクセスページのmargin-bottom*/
 
 .kk-accsesslist{
+    margin:60px;
 }/*アクセスの基本情報を入れるbox*/
 
 dl{
@@ -103,6 +99,16 @@ dl{
     margin:1.846em;
     line-height: 1.846em;
 }
+
+.kk-contact{
+    margin:60px;
+}
+
+.kk-contact_contents_text1 p{ 
+    text-align: center;
+    font-size: 1em;
+}
+
 
 /* ヘッダー */
 .mm-header {
