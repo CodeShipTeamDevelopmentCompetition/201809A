@@ -54,24 +54,55 @@ body{    background-color:rgba(110, 60, 32, 1);
 }/*背景カラー */
 
 .kk-contentsbox{
-    position: relative;
     width:100%;
     min-height:100%;
-    text-align: left;
+    display:block;
+    margin:0 10px;
+    color: rgba(255,255,255,1);
 }/*サイトの大きさ、text-align*/
 
 
 .kk-contentsbox h1{
     color: rgba(255,255,255,1);
-    font-size:60px;
+    margin-bottom: 1em; 
+	font-size: 1.846em; 
+    line-height: 1em;
 }/*ACCESSフォントサイズ、カラー*/
 
+.kk-contentsbox h1 apan{
+    margin-top: 5px;
+    font-size: 0.5em;
+    display: block;
+}/*アクセスフォントサイズ*/
+
 .kk-section{
-    position: absolute;;
+    margin-bottom: 60PX;
+}/*アクセスページのmargin-bottom*/
+
+.kk-accsesslist{
+}/*アクセスの基本情報を入れるbox*/
+
+dl{
     display:block;
+    -webkit-margin-before:1em;
+    -webkit-margin-after:1em;
+    -webkit-margin-start:0em;
+    -webkit-margin-end:0em;
+}
+
+.kk-accsesslist dt{
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    line-height: 1.846em;
     height:60px;
 }
 
+.kk-accsesslist dd{
+    font-size: 1em;
+    margin:1.846em;
+    line-height: 1.846em;
+}
 
 /* ヘッダー */
 .mm-header {
@@ -129,8 +160,17 @@ body{    background-color:rgba(110, 60, 32, 1);
 
 /* フッター　*/
 .oy-footer {
-    background-color: rgb(110, 60, 32, 1);
-    color: rgb(255, 255, 255, 1);
+    height: 40px;
+    background-color:rgba(55,0,0,1);
     display: flex;
     justify-content: center;
+}
+.oy-footer-text{
+    margin-top: 10px;
+    height: 100%;
+    font-size: 17px;
+    width: 350px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-around;
 }
