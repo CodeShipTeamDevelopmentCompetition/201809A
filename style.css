@@ -21,7 +21,7 @@ h3{
     font-family: 'Comic Sans MS',sans-serif;
 }
 
-.home-back{
+.home-body{
     background-color: rgb(255, 231, 181, 1);
 }
 /* homeスライドショー */
@@ -35,7 +35,7 @@ h3{
 }
 /* 季節のメニュー的な */
 .home-new-menu-box{
-    background-color: #FF5F17;
+    background-color: rgb(110, 60, 32, 1);
 }
 .home-new-menu{
     display: flex;
@@ -50,7 +50,7 @@ h3{
     margin: 50px;
 }
 
-body{    background-color:rgba(110, 60, 32, 1);
+body{    background-color:rgba(110,60,32,1);
 }/*背景カラー */
 
 .kk-contentsbox{
@@ -130,6 +130,24 @@ dl{
     position: relative;
 }
 
+/* メニュー　*/
+.ny-menu ul{
+    list-style: none;
+}
+
+.ny-image {
+    background-color:black;
+    height: 80px;
+    width: 80px;
+}
+
+.ny-title {
+    color:rgba(255, 231, 181, 1);
+}
+
+.ny-drinkmenu {
+    border:double 7px rgba(255, 231, 181, 1);
+    width:60%;
 .mm-header-title {
     margin: 0;
     display: inline-block;
