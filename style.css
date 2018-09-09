@@ -159,11 +159,17 @@ dl{
 }
 
 /* フッター　*/
+.TOP{
+    color: rgba(255,255,255,1);
+}
+.TOP a{
+    color: rgba(255,255,255,1);
+}
 .oy-footer {
     height: 40px;
     background-color:rgba(55,0,0,1);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .oy-footer-text{
     margin-top: 10px;
@@ -173,4 +179,13 @@ dl{
     color: rgba(255,255,255,1);
     display: flex;
     justify-content: space-around;
+}
+.oy-accsss-footer-text{
+    font-size: 17px;
+    width: 350px;
+    margin-left: 480px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    justify-content: space-around;
+
 }
