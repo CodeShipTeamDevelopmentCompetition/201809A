@@ -108,14 +108,14 @@ dl{
 .mm-header {
     height: 80px;
     width: 100;
-    background-color: rgb(110, 60, 32);
+    background-color:rgba(55,0,0,1);
 }
 
 .mm-header a {
     height: 80px;
     line-height: 80px;
     width: 100%;
-    color: black;
+    color: white;
     display: block;
     text-decoration: none;
 }
