@@ -2,8 +2,6 @@
 * {
     font-family: 'Comic Sans MS',sans-serif;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 .home-body{
     background-color: rgb(255, 231, 181, 1);
@@ -33,12 +31,7 @@
     background-color: gray;
     margin: 50px;
 }
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> c8eac70d05c4cc8a6b066fb1b4e90c75336398fb
+
 body{    background-color:rgba(110,60,32,1);
 }/*背景カラー */
 
@@ -59,29 +52,18 @@ body{    background-color:rgba(110,60,32,1);
     position: absolute;;
     display:block;
     height:60px;
-    color: 
 }
 
-
-
-
->>>>>>> 93d41ecd0276c90b63e9ef3207276f0d849f756d
-=======
 
 /* ヘッダー */
 .mm-header {
     
 }
->>>>>>> 99189ee92f37af670c0e3131557f9abb3bb93787
-<<<<<<< HEAD
->>>>>>> 93d41ecd0276c90b63e9ef3207276f0d849f756d
-=======
 
 /* フッター　*/
-.footer {
+.oy-footer {
     background-color: rgb(110, 60, 32, 1);
     color: rgb(255, 255, 255, 1);
     display: flex;
     justify-content: center;
 }
->>>>>>> c8eac70d05c4cc8a6b066fb1b4e90c75336398fb
