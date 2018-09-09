@@ -39,3 +39,11 @@ body{    background-color:rgba(110,60,32,1);
     
 }
 >>>>>>> 99189ee92f37af670c0e3131557f9abb3bb93787
+
+/* フッター　*/
+.footer {
+    background-color: rgb(110, 60, 32, 1);
+    color: rgb(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+}
