@@ -2,6 +2,7 @@
 * {
     font-family: 'Comic Sans MS',sans-serif;
 }
+<<<<<<< HEAD
 
 .home-body{
     background-color: rgb(255, 231, 181, 1);
@@ -15,3 +16,55 @@
     margin-right: 20%;
     background-color: grey;
 }
+/* 季節のメニュー的な */
+.home-new-menu-box{
+    background-color: rgb(110, 60, 32, 1);
+}
+.home-new-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.home-new-menu-img{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 50px;
+}
+=======
+<<<<<<< HEAD
+body{    background-color:rgba(110,60,32,1);
+}/*背景カラー */
+
+.kk-contentsbox{
+    position: relative;
+    width:100%;
+    min-height:100%;
+    text-align: left;
+}/*サイトの大きさ、text-align*/
+
+
+.kk-contentsbox h1{
+    color: rgba(255,255,255,1);
+    font-size:60px;
+}/*ACCESSフォントサイズ、カラー*/
+
+.kk-section{
+    position: absolute;;
+    display:block;
+    height:60px;
+    color: 
+}
+
+
+
+
+=======
+
+/* ヘッダー */
+.mm-header {
+    
+}
+>>>>>>> 99189ee92f37af670c0e3131557f9abb3bb93787
+>>>>>>> 93d41ecd0276c90b63e9ef3207276f0d849f756d
