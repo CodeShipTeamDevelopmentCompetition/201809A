@@ -42,10 +42,14 @@ h3{
   
 }
 .home-images-text{
-    
+    font-size: 40px;
 }
 
 /* 季節のメニュー的な */
+.home-new-menu-title{
+    text-align: center;
+    color: white;
+}
 .home-new-menu-box{
     background-color: rgb(110, 60, 32, 1);
 }
@@ -58,9 +62,28 @@ h3{
 .home-new-menu-img{
     height: 200px;
     width: 200px;
-    background-color: gray;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQba6sogtl03pP7xLVerSdgw-q_OAbN8AnqpIZeGrfVOcogNZArHg);
     margin: 50px;
 }
+.home-new-menu-img-2{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl9AV0XSLSQAcDF2Sp_Pc7nzEAhyEQjZU2hIQjbydSivjGEWfXCw);
+}
+.home-new-menu-img-3{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFLK_FtYziCWDDi_LY8ocdOmkwc0Q2oGm_5XG2qVSlXHiRD7XNOQ);
+}
+
+.home-last-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
 
 body{    background-color:rgba(110,60,32,1);
 }/*背景カラー */
