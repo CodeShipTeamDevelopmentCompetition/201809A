@@ -184,6 +184,7 @@ dl{
 
 .ny-title {
     color:rgba(255, 231, 181, 1);
+    font-weight: inherit;
 }
 
 .ny-drinkmenu {
@@ -195,6 +196,7 @@ dl{
     display: inline-block;
     position: absolute;
     top: 0;
+    font-weight: bold;
 }
 
 .mm-header-nav {
